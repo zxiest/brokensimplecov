@@ -40,3 +40,4 @@ gem 'therubyracer', platforms: :ruby
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'simplecov', '~> 0.7.1', require: false
