@@ -1,4 +1,11 @@
 This is an example app that shows that SimpleCov is not working as expected.
+It is a barebones rails 4.1.0 app with simplecov added.
+
+Changes to enable SimpleCov:
+    https://github.com/crankharder/brokensimplecov/commit/33e802106c6eb647d7af19971e14fb8e9582e70c
+
+User and UserTest have been added
+    https://github.com/crankharder/brokensimplecov/commit/a5c6f96031905eed710310b17ab5c78525f0dafe
 
 These commands should reproduce the issue and show that expected coverage on User is not showing up in the HTML output
 
