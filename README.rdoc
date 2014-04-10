@@ -2,13 +2,13 @@ This is an example app that shows that SimpleCov is not working as expected.
 
 These commands should reproduce the issue and show that expected coverage on User is not showing up in the HTML output
 
-````
+''''
 git clone git@github.com:crankharder/brokensimplecov.git
 cd brokensimplecov
 bundle
 rake db:create
 rake test
 open coverage/index.html
-````
+''''
 
 
