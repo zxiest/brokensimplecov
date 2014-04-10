@@ -1,28 +1,13 @@
-== README
+This is an example app that shows that SimpleCov is not working as expected.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+These commands should reproduce the issue and show that expected coverage on User is not showing up in the HTML output
 
-Things you may want to cover:
+```
+git clone git@github.com:crankharder/brokensimplecov.git
+cd brokensimplecov
+bundle
+rake db:create
+rake test
+open coverage/index.html
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
